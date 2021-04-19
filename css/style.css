@@ -1,0 +1,199 @@
+html,body{
+    height: 940px;
+	width:  1260px;
+	background: #EDF2C5;
+	font-family:Arial black;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+
+}
+
+*,*:after,*:before{
+	box-sizing: inherit;
+}
+/*header*/
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.title{
+	text-align: left;
+	font-size: 44px;
+	
+	width: 271px;
+	color: #778A50;
+	
+}
+
+.interact{
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+}
+
+
+
+#fb{
+	height: 25px;
+	width: 25px;
+	
+}
+
+#ig{
+	height: 25px;
+	width: 25px;
+	
+}
+
+#line{
+	color: #778A50;
+	
+	
+}
+
+#login{
+	color: #778A50;
+	height: 25px;
+	width: 60px;
+	border: 1.5px solid;
+	border-color:   #778A50;
+	border-radius: 3px;
+
+}
+
+#join{
+	color: #778A50;
+	height: 25px;
+	width: 50px;
+	
+	
+	border: 1.5px solid;
+	border-color:   #778A50;
+	border-radius: 3px;
+}
+/*menu*/
+.menu{
+	
+	width: 940px;
+	background-color: #778A50;
+	margin:auto;	
+	border-radius: 3px;
+}
+
+.nav-list{
+display: flex;
+margin:0;
+padding: 0;
+}
+
+.nav-list-item{
+	list-style: none;
+	padding:16px 30px;
+}
+
+.nav-list-item-link{
+	display: block;
+	color: #EDF2C5;
+	text-decoration: none;
+}
+/*image*/
+
+.image{
+	height: 448px;
+	width: 940px;
+	margin:20px auto;
+	text-align: center;
+
+}
+/*content*/
+.container{
+	margin:auto;
+	width: 940px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 35px;
+
+}
+.vegetables{
+
+	background-color: #778A50;
+	width: 445px;
+	color:  #EDF2C5;
+	padding: 15px  30px;
+}
+
+.content-img{
+	display: flex;
+	justify-content: space-between;
+	margin: 15px 0px 0px 0px;
+	width: 445px;
+}
+.contact{
+	background-color: #778A50;
+	width: 445px;
+	color:  #EDF2C5;
+	padding: 15px  ;
+	
+
+}
+.text1{
+	
+	font-family: ArialMt Regular;
+	line-height: 1.33;
+	color:#7D7D7D;
+	font-size: 12px;
+	border-bottom:solid #7D7D7D 1px;
+	padding: 16px 15px;
+
+
+}
+
+.content-text{
+	height:200px;
+	
+	
+}
+
+.text{
+	margin: 15px 0px;
+	height: 140px;
+	width:445px;
+	background-color: #F7FBDA;
+}
+
+.text2{
+	font-family: ArialMt Regular;
+	line-height: 1.83;
+	font-size: 12px;
+	background-color: #F7FBDA;
+	color:#7D7D7D;
+	padding-top: 15px;
+	padding-left: 15px;
+
+}
+
+.footer{
+	width: 1264px;
+	height: 60px;
+	background-color:  #778A50;
+	position: absolute;
+    top : 880px;
+}
+
+.footer1{
+	color: #EDF2C5;
+	font-size:12px;
+	font-family: ArialMt Regular;
+	margin-left: 479px;
+	margin-top: 24px;
+	margin-bottom: 25px;
+	
+
+
+
+}
